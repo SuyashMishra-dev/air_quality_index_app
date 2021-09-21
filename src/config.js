@@ -1,0 +1,1 @@
+export const WEB_SOCKET_CONNECTING_URL = 'ws://city-ws.herokuapp.com';
