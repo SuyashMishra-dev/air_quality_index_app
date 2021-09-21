@@ -27,11 +27,11 @@ It contains city wise comparision of AQI in chart, Line chart which shows last 2
 - [Github] - Version control software
 - [Circle-CI] - CICD
 - [AWS] - Static web hosting
-[ReactJS]: <http://reactjs.org>
-[Ant-Design]: <https://ant.design/>
-[Antv]: <https://antv.vision/>
-[Circle-CI]: <https://dashboard.heroku.com/>
-[AWS]: <https://aws.amazon.com/>
+   [ReactJS]: <http://reactjs.org>
+   [Ant-Design]: <https://ant.design/>
+   [Antv]: <https://antv.vision/>
+   [Circle-CI]: <https://dashboard.heroku.com/>
+   [AWS]: <https://aws.amazon.com/>
 
 - Implement continuous integration and continuous deployment(CI/CD)
  ![AQI comparison Table](https://raw.githubusercontent.com/SuyashMishra-dev/air_quality_index_app/master/cicd.PNG "Table")
@@ -57,11 +57,16 @@ Air Monitoring requires [Node.js](https://nodejs.org/) v10+ to run.
 Install the dependencies and devDependencies and start the frontend server.
 
 ```sh
+### Go inside directory
 cd air_quality_index_app
+
+### Install dependencies
 npm install --save
+
+### Start server
 npm start
 
-### your server is start running on localhost 3000 port
+### your server will be start running on http://localhost:3000/ port
 ```
 
 
@@ -74,7 +79,7 @@ npm start
 ## Contacts
 
 - Suyash Mishra [LinkedIn-Suyash] - [<suyashmishra143143@gmail.com>]
-[LinkedIn-Suyash]: <https://www.linkedin.com/in/suyash-mishra00/>
+   [LinkedIn-Suyash]: <https://www.linkedin.com/in/suyash-mishra00/>
 
 ## License
 
