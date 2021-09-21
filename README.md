@@ -21,17 +21,12 @@ It contains city wise comparision of AQI in chart, Line chart which shows last 2
 
 ## Tech and Libraries
 
-- [ReactJS] - HTML enhanced for web apps!
-- [Antv] - React Chart library
-- [Ant-Design] - Components library for Reactjs
-- [Github] - Version control software
-- [Circle-CI] - CICD
-- [AWS] - Static web hosting
-   [ReactJS]: <http://reactjs.org>
-   [Ant-Design]: <https://ant.design/>
-   [Antv]: <https://antv.vision/>
-   [Circle-CI]: <https://dashboard.heroku.com/>
-   [AWS]: <https://aws.amazon.com/>
+- [ReactJS](http://reactjs.org) - HTML enhanced for web apps!
+- [Antv](https://antv.vision) - React Chart library
+- [Ant-Design](https://ant.design) - Components library for Reactjs
+- [Github](https://github.com/) - Version control software
+- [Circle-CI](https://dashboard.heroku.com) - CICD
+- [AWS](https://aws.amazon.com) - Static web hosting
 
 - Implement continuous integration and continuous deployment(CI/CD)
  ![AQI comparison Table](https://raw.githubusercontent.com/SuyashMishra-dev/air_quality_index_app/master/cicd.PNG "Table")
@@ -56,18 +51,21 @@ It contains city wise comparision of AQI in chart, Line chart which shows last 2
 Air Monitoring requires [Node.js](https://nodejs.org/) v10+ to run.
 Install the dependencies and devDependencies and start the frontend server.
 
-```sh
-### Go inside directory
-cd air_quality_index_app
-
-### Install dependencies
-npm install --save
-
-### Start server
-npm start
-
-### your server will be start running on http://localhost:3000/ port
 ```
+### Go inside directory
+```
+cd air_quality_index_app
+```
+### Install dependencies
+```
+npm install --save
+```
+### Start server
+```
+npm start
+```
+
+#### your server will be start running on (http://localhost:3000) port
 
 
 
@@ -78,8 +76,7 @@ npm start
 
 ## Contacts
 
-- Suyash Mishra [LinkedIn-Suyash] - [<suyashmishra143143@gmail.com>]
-   [LinkedIn-Suyash]: <https://www.linkedin.com/in/suyash-mishra00/>
+- Suyash Mishra [LinkedIn-Suyash](https://www.linkedin.com/in/suyash-mishra00) - [<suyashmishra143143@gmail.com>]
 
 ## License
 
