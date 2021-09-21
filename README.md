@@ -45,13 +45,12 @@ It contains city wise comparision of AQI in chart, Line chart which shows last 2
 
 
 
-```
+
 ## Installation
 
 Air Monitoring requires [Node.js](https://nodejs.org/) v10+ to run.
 Install the dependencies and devDependencies and start the frontend server.
 
-```
 ### Go inside directory
 ```
 cd air_quality_index_app
