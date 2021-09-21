@@ -34,6 +34,7 @@ function LineChart({ data, city })  {
   }, []);
 
     if (lineChart && data.length) {
+      lineChart.annotation().clear(true);
       lineChart.data(data);
       lineChart.annotation().text({
         position: ["50%", "95%"],
@@ -44,7 +45,7 @@ function LineChart({ data, city })  {
           textAlign: "center",
         },
       });
-      lineChart.render();
+      lineChart.render(); 
     }
 
   return <div ref={elementRef}></div>;

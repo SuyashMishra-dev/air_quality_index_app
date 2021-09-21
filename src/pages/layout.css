@@ -23,3 +23,7 @@
 .text-center {
   text-align: center;
 }
+
+.pb-4 {
+  padding-bottom: 3rem;
+}

@@ -66,22 +66,22 @@ function HomePage() {
             handleCity={handleCity}
           />
         </Row>
-        <Row>
-          <Col span={colSize} className="chart">
-            <Title level={2}>Comparison Chart</Title>
-            <ComparisonChart data={data} />
-          </Col>
-          <Col span={colSize} className="chart">
-            <Title level={2}>Real-Time AQI</Title>
-            <GuageChart cityData={cityData} city={city} />
-          </Col>
-        </Row>
         {city && <Row>
-          <Col span={24} className="text-center">
+          <Col span={24} className="text-center pb-4">
             <Title level={2}>Line chart of last 20 AQI values with respect to updated time</Title>
             <LineChart data={selectedCity} city={city} />
           </Col>
         </Row>}
+        <Row>
+          <Col span={colSize} className="chart">
+            <Title level={2}>Real-Time AQI</Title>
+            <GuageChart cityData={cityData} city={city} />
+          </Col>
+          <Col span={colSize} className="chart">
+            <Title level={2}>Comparison Chart</Title>
+            <ComparisonChart data={data} />
+          </Col>
+        </Row>
         <Row className="table">
           <Title level={2}>Real-Time AQI Table</Title>
           <AqiTable data={data} className="aqiTable" />
